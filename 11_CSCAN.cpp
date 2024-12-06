@@ -2,7 +2,7 @@
 using namespace std;
 int n;
 int disk_size=200;
-void SCAN(vector<int> & arr,int head){
+void CSCAN(vector<int> & arr,int head){
     vector<int> left,right;
   
         right.push_back(disk_size-1);
